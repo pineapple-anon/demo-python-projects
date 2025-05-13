@@ -35,3 +35,9 @@ def longest_repeating_character_replacement(s, k):
         max_length = max(max_length, right - left + 1)
     
     return max_length
+
+# Example usage
+if __name__ == "__main__":
+    s = "aabccb"
+    k = 1
+    print(longest_repeating_character_replacement(s, k))  # Output: 4
